@@ -1,0 +1,56 @@
+body {
+    background-color: #7F8CF4;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto 0.25fr auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.boll1 {
+    width: 100px;
+    grid-column: 1 / 2;
+    justify-self: right;
+}
+
+.rubrik {
+    grid-column: 2 / 3;
+    text-align: center;
+    background-color: #FA52BF;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.boll2 {
+    width: 100px;
+    grid-column: 3 / 4;
+    justify-self: left;
+}
+
+.färdig {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: -80px;
+}
+
+aside {
+    background-color: #62F7F2;
+    margin-bottom: 100px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+main {
+    margin-left: 10px;
+    background-color: #62F7F2;
+    border-radius: 15px;
+}
